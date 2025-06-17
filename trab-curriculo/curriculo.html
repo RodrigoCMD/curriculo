@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículo - Rodrigo Marques de Castro</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 30%;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .main {
+      width: 70%;
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    h2, h3 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 0;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .box {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 15px;
+      background-color: #fafafa;
+    }
+
+    .item {
+      margin-bottom: 20px;
+    }
+
+    .item-title {
+      font-weight: bold;
+    }
+
+    .item-year {
+      font-style: italic;
+      color: #666;
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .sidebar, .main {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="sidebar">
+      
+  <img src="C:\Users\rodrigo\Desktop\trab-curriculo\trab-curriculo\img\foto.jpeg" alt="Foto de perfil" style="width: 100%; border-radius: 8px; margin-bottom: 15px;" />
+
+      <h2>Rodrigo Marques de Castro</h2>
+      <p>
+        rodrigomarquescastro@hotmail.com<br />
+        Telefone: (35) 99984-0460<br />
+        Idade: 27<br />
+        Estiva - MG
+      </p>
+
+      <div class="section">
+        <h3>Skills</h3>
+        <ul style="list-style: none; padding: 0;">
+          <li>HTML <span class="stars">★★☆☆☆</span></li>
+          <li>CSS <span class="stars">★★☆☆☆</span></li>
+          <li>JavaScript <span class="stars">★☆☆☆☆</span></li>
+          <li>Python <span class="stars">★★☆☆☆</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="section box">
+        <h2>Acadêmico</h2>
+        <div class="item">
+          <div class="item-title">Curso Técnico em Informática – Senac-MG</div>
+          <div class="item-year">Março/2023 – Setembro/2024 • Finalizado</div>
+          <div class="item-desc">Formação técnica com ênfase em lógica de programação, redes de computadores, suporte a usuários e manutenção de sistemas.</div>
+        </div>
+        <div class="item">
+          <div class="item-title">Sistemas de Informação – Univas</div>
+          <div class="item-year">Fevereiro/2024 – Cursando</div>
+          <div class="item-desc">Graduação voltada ao desenvolvimento de software, análise de sistemas, banco de dados e gestão de tecnologia da informação.</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Profissional</h2>
+        <div class="item">
+          <div class="item-title">Coordenador de Pátio</div>
+          <div class="item-year">2018 – 2020</div>
+          <div class="item-desc">Responsável pelo controle de entrada e saída de materiais, organização de pátio e administração da escala de viagens dos funcionários.</div>
+        </div>
+      </div>
+
+      <div class="section box">
+        <h2>Projetos</h2>
+        <div class="item">
+          <div class="item-title">Catálogo de Jogos – Projeto Web em HTML/CSS</div>
+          <div class="item-desc">Criação de um site fictício de venda de jogos, com páginas de catálogo, descrição de produtos e layout responsivo. Projeto realizado com HTML e CSS puros, focando em estruturação semântica e design visual.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
